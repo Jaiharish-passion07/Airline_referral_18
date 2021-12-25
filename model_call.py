@@ -8,7 +8,7 @@ import joblib
 
 
 #filename of Gradient Boosting model
-joblib_file='C:/Users/ADMIN/Webapp for DataScience/model/grad_boost_tuned.pkl'
+joblib_file='.../grad_boost_tuned.pkl'
 # Load the pickled model
 grad_boost_model= joblib.load(joblib_file)
 
