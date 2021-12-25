@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Dec 15 18:03:21 2021
+
+@author: ADMIN
+"""
+import joblib
+
+
+#filename of Gradient Boosting model
+joblib_file='C:/Users/ADMIN/Webapp for DataScience/model/grad_boost_tuned.pkl'
+# Load the pickled model
+grad_boost_model= joblib.load(joblib_file)
+
