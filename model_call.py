@@ -5,6 +5,7 @@ Created on Wed Dec 15 18:03:21 2021
 @author: ADMIN
 """
 import joblib
+import sklearn
 
 
 #filename of Gradient Boosting model
